@@ -1,8 +1,8 @@
 # ScreenSeed Webhook Verification (PHP)
 
-![Tests](https://github.com/adgators/screenseed-webhook/actions/workflows/tests.yml/badge.svg)
-![PHP Version](https://img.shields.io/badge/php-%3E%3D8.0-blue)
-![License](https://img.shields.io/github/license/adgators/screenseed-webhook)
+![Tests](https://github.com/adgators/screenseed-webhook-php/actions/workflows/tests.yml/badge.svg)
+![PHP Version](https://img.shields.io/badge/php-%3E%3D8.1-blue)
+![License](https://img.shields.io/github/license/adgators/screenseed-webhook-php)
 
 PHP utilities for verifying **ScreenSeed** webhook signatures.
 
