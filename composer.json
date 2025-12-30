@@ -1,0 +1,25 @@
+{
+  "name": "adgators/screenseed-webhook",
+  "description": "PHP utilities for verifying ScreenSeed webhook signatures",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AdGators\\ScreenSeed\\Webhook\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AdGators\\ScreenSeed\\Webhook\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
