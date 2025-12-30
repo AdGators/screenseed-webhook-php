@@ -31,7 +31,8 @@ $secret = $_ENV['SCREENSEED_WEBHOOK_SECRET'];
 try {
     $signature = new Signature($signatureHeader);
 
-    if (! $signature->verify($payload, $secret, 300)) {
+    // verify the signature matches and is less than 30 seconds old
+    if (! $signature->verify($payload, $secret, 30)) {
         http_response_code(401);
         exit('Invalid webhook signature');
     }
