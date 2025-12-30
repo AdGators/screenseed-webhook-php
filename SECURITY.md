@@ -19,14 +19,12 @@ If you discover a security vulnerability in this package, **please do not open a
 
 Instead, report it responsibly by emailing:
 
-**security@adgators.com**
+**support@adgators.com**
 
 Please include:
 - A description of the issue
 - Steps to reproduce (if possible)
 - Any relevant code snippets or proofs of concept
-
-You may encrypt your message if you prefer.
 
 ---
 
